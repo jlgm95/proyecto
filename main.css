@@ -7,14 +7,7 @@ body
      margin: auto;
      overflow: hidden;
  }
- .slider ul {
-     display: flex;
-     padding: 0;
-     width: 400%;
-     
-     animation: cambio 20s infinite alternate;
-     animation-timing-function: linear;
- }
+
  .slider li{
      width: 100%;
      list-style: none;
@@ -22,6 +15,7 @@ body
  .slider img{
      width: 100%;
  }
+
  @keyframes cambio {
      0% {margin-left: 0;}
      20% {margin-left: 0;}
@@ -86,7 +80,8 @@ body
 	margin-right: 1em;
  }
 
- a,.azul{
+
+ .azul{
 	color: #009FFF;
  }
  .no-lista li
@@ -133,7 +128,8 @@ body
   {
   	vertical-align: top;
   }
-  .verdelo{
+  .verdelo
+  {
       color: #00E54C;
   }
   .mediano
@@ -152,13 +148,6 @@ body
 {
     color: black;
 }
-  .retraso-1{
-  	-webkit-animation-delay: 1s;
-  	-moz-animation-delay: 1s;
-  	animation-delay: 1s;
-  }
-  .retraso-2{
-  	-webkit-animation-delay: 2s;
-  	-moz-animation-delay: 2s;
-  	animation-delay: 2s;
-  }
+.tablaInicio { position:absolute; left:120px; top:450px; }
+.menu_izq { position:absolute; left:0px; top:0px; }
+ 
